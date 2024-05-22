@@ -249,7 +249,7 @@ body {
 /***** Media queries Section *****/
 @media (max-width: 768px) {
   body {
-    padding: 0 0.5rem 0.5rem;
+    padding: 0 0.8rem 0.5rem;
   }
 
   .app-title {
@@ -291,7 +291,7 @@ body {
   }
 
   .made-with {
-    margin-top: 28px;
+    margin-top: 30px;
   }
 }
 /***** End Media queries Section *****/
