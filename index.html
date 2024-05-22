@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vikash Kumar" />
+    <meta
+      name="description"
+      content="Focus on Today is a streamlined to-do list app designed to help you prioritize and accomplish your daily tasks with ease. Stay organized and boost your productivity, one day at a time."
+    />
+    <title>Focus on Today</title>
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/images/favicon_io/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/images/favicon_io/android-chrome-512x512.png"
+    />
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style sheet and js file -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 class="app-title">Focus on <span>Today</span></h1>
+      <div class="app-wrapper">
+        <h2 class="app-subtitle">
+          <span>Today</span>
+          <img src="/images/sun.svg" alt="Sun image" class="sun-icon" />
+        </h2>
+        <p class="progress-label">Raise the bar by completing your goals!</p>
+
+        <!-- Progress bar -->
+        <div class="progress-bar">
+          <div class="progress-value"><span>2/3 Completed</span></div>
+          <p class="error-label">Please set all the 3 goals!</p>
+        </div>
+
+        <!-- Goal section -->
+        <div class="goals-container">
+          <!-- single goal item -->
+          <div class="goal-item">
+            <span class="goal-item__checkbox"
+              ><img
+                class="check-icon"
+                src="/images/check-icon.svg"
+                alt="check icon"
+            /></span>
+            <input
+              id="first"
+              type="text"
+              class="goal-item__input"
+              placeholder="Add new goal..."
+            />
+          </div>
+          <!-- single goal item -->
+          <div class="goal-item">
+            <span class="goal-item__checkbox"
+              ><img
+                class="check-icon"
+                src="/images/check-icon.svg"
+                alt="check icon"
+            /></span>
+            <input
+              id="second"
+              type="text"
+              class="goal-item__input"
+              placeholder="Add new goal..."
+            />
+          </div>
+          <!-- single goal item -->
+          <div class="goal-item">
+            <span class="goal-item__checkbox"
+              ><img
+                class="check-icon"
+                src="/images/check-icon.svg"
+                alt="check icon"
+            /></span>
+            <input
+              id="third"
+              type="text"
+              class="goal-item__input"
+              placeholder="Add new goal..."
+            />
+          </div>
+        </div>
+        <p class="quote">“Move one step ahead, today!”</p>
+        <p class="made-with">Made with ❤️ by Vikash Gupta</p>
+      </div>
+    </main>
+  </body>
+</html>
