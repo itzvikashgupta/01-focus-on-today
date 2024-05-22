@@ -15,7 +15,7 @@
 
   --fs-100: 0.625rem;
   --fs-200: 0.875rem;
-  --fs-400: 1rem;
+  --fs-400: 0.9375rem;
   --fs-600: 2rem;
   --fs-800: 4rem;
 
@@ -201,7 +201,7 @@ body {
   border: none;
   width: 100%;
   align-self: stretch;
-  padding-left: 22px;
+  margin-left: 22px;
 }
 
 .goal-item__input::placeholder {
@@ -249,7 +249,7 @@ body {
 /***** Media queries Section *****/
 @media (max-width: 768px) {
   body {
-    padding: 0 1rem 0.5rem;
+    padding: 0 0.5rem 0.5rem;
   }
 
   .app-title {
@@ -275,7 +275,7 @@ body {
 
   .goal-item {
     border-radius: 14px;
-    padding-inline: 1.1rem;
+    padding-inline: 1rem;
     height: 64px;
     margin-bottom: 24px;
   }
@@ -285,8 +285,13 @@ body {
     height: 20px;
   }
 
+  .goal-item__input {
+    margin-left: 1.05rem;
+
+  }
+
   .made-with {
-    margin-top: 24px;
+    margin-top: 28px;
   }
 }
 /***** End Media queries Section *****/
